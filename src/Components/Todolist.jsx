@@ -9,7 +9,7 @@ return Store.todo
   return (
     <div>
      { Data.map((e,i)=>{
-        return <li key={i}>{e}</li>
+        return <ul><li key={i}>{e}</li></ul>
      })}
     </div>
   )
